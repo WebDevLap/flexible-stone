@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/webdevlap.github.io/flexible-stone/static/css/main.f7b0864f.css",
+    "main.js": "/webdevlap.github.io/flexible-stone/static/js/main.bf393732.js",
+    "index.html": "/webdevlap.github.io/flexible-stone/index.html",
+    "main.f7b0864f.css.map": "/webdevlap.github.io/flexible-stone/static/css/main.f7b0864f.css.map",
+    "main.bf393732.js.map": "/webdevlap.github.io/flexible-stone/static/js/main.bf393732.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f7b0864f.css",
+    "static/js/main.bf393732.js"
+  ]
+}
