@@ -4,6 +4,7 @@ import { Using } from './components/Using'
 import { TechDescription } from './components/TechDescription'
 import { Adventages } from './components/Adventages'
 import { StagesWork } from './components/StagesWork'
+import { OurProducts } from './components/OurProducts'
 
 export const HomePage: React.FC = () => {
   return (
@@ -13,6 +14,7 @@ export const HomePage: React.FC = () => {
       <TechDescription/>
       <Adventages/>
       <StagesWork/>
+      <OurProducts/>
     </main>
   )
 }

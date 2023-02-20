@@ -669,7 +669,7 @@ body {
   @include adaptiv-property('padding-bottom', 150, 40, 'px');
   .stagesWork__container {
     .stagesWork__title {
-      @include adaptiv-property('font-size', 30, 20, 'px');
+      @include adaptiv-property('font-size', 30, 24, 'px');
       @include adaptiv-property('margin-bottom', 50, 30, 'px');
       color: #fff;
       font-weight: 600;
@@ -686,7 +686,7 @@ body {
         position: absolute;
         height: 95%;
         top: 0;
-        left: 44px;
+        left: 32px;
         transform: translate(-50%, 0);
         background-color: $orange;
       }
@@ -757,6 +757,36 @@ body {
       .stagesWorkItem__title {
         text-align: center;
         margin-top: 5px;
+      }
+    }
+  }
+}
+
+.ourProducts {
+  .ourProducts__container {
+    .ourProducts__title {
+      @include adaptiv-property('font-size', 40, 20, 'px');
+      font-weight: 500;
+      text-align: center;
+      &::after{
+        content: '';
+        display: block;
+        height: 2.5px;
+        width: 200px;
+        text-align: center;
+        @include adaptiv-property('margin-top', 25, 8, 'px');
+        @include adaptiv-property('margin-bottom', 25, 8, 'px');
+        background-color: #a2311c;
+      }
+    }
+    .ourProducts__content {
+      .ourProducts-content__list {
+        .ourProducts__item {
+          .ourProducts-item__img {
+          }
+          .ourProducts-item__title {
+          }
+        }
       }
     }
   }
