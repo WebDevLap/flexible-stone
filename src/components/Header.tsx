@@ -6,6 +6,7 @@ type NavItemType = {
   link: string;
 }
 const NavItems: NavItemType[] = [
+  { item: 'Главная', link: '/' },
   { item: 'Гибкий кирпич', link: '/flexibleStone/' },
   { item: 'Гибкая плитка', link: '/flexibleTile/' },
   { item: 'Фасадные термопанели', link: '/facadeTermelPanels/' },
