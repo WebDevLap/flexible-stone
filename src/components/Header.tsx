@@ -16,6 +16,7 @@ const NavItems: NavItemType[] = [
 
 export const Header: React.FC = () => {
   const [burgerActive, setBurgerActive] = React.useState<boolean>(false)
+  const burgerMenuRef = React.useRef<HTMLDivElement>(null)
 
   React.useEffect(() => {
     if(burgerActive){
@@ -25,6 +26,18 @@ export const Header: React.FC = () => {
     }
     
   }, [burgerActive])
+  
+
+  React.useEffect(() => {
+    function handleBodyClick(e: MouseEvent){
+      setBurgerActive(false);
+    }
+    document.body.addEventListener('click', (e: any) => handleBodyClick(e))
+
+    return (
+      document.body.removeEventListener('click', (e: any) => handleBodyClick(e))
+    )
+  }, [])
 
 
   return (
@@ -33,12 +46,12 @@ export const Header: React.FC = () => {
         <NavLink className="header__logo" to='/'>
           {/* <img src="" alt="logo" /> */}
         </NavLink>
-        <div className={burgerActive ? "burger-menu active" :"burger-menu"} onClick={() => setBurgerActive(!burgerActive)}>
+        <div className={burgerActive ? "burger-menu active" :"burger-menu"} onClick={(e) => {setBurgerActive(!burgerActive); e.stopPropagation()}}>
           <span></span>
           <span></span>
           <span></span>
         </div>
-        <nav className={burgerActive ? "header__nav active" : "header__nav"}>
+        <nav className={burgerActive ? "header__nav active" : "header__nav"} ref={burgerMenuRef} onClick={(e) => e.stopPropagation()}>
           <ul className="header-nav__list">
             {NavItems.map((item, index) => {
               return (
