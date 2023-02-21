@@ -7,6 +7,7 @@ import { OurProducts } from './components/OurProducts';
 import { MainBlock } from '../../components/MainBlock';
 
 export const HomePage: React.FC = () => {
+
   return (
     <main className="">
       <MainBlock
