@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/flexible-stone/static/css/main.b969d419.css",
-    "main.js": "/flexible-stone/static/js/main.0f1c4936.js",
+    "main.css": "/flexible-stone/static/css/main.392548f3.css",
+    "main.js": "/flexible-stone/static/js/main.12b0fe56.js",
     "index.html": "/flexible-stone/index.html",
-    "main.b969d419.css.map": "/flexible-stone/static/css/main.b969d419.css.map",
-    "main.0f1c4936.js.map": "/flexible-stone/static/js/main.0f1c4936.js.map"
+    "main.392548f3.css.map": "/flexible-stone/static/css/main.392548f3.css.map",
+    "main.12b0fe56.js.map": "/flexible-stone/static/js/main.12b0fe56.js.map"
   },
   "entrypoints": [
-    "static/css/main.b969d419.css",
-    "static/js/main.0f1c4936.js"
+    "static/css/main.392548f3.css",
+    "static/js/main.12b0fe56.js"
   ]
 }
