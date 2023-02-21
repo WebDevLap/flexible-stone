@@ -1,20 +1,23 @@
 import React from 'react';
+import parse from 'html-react-parser';
 
-export const Main = () => {
+type MainBlockType = {
+  bgImageUrl: string;
+  title: string;
+  subtitle: string;
+};
+
+export const MainBlock: React.FC<MainBlockType> = ({ bgImageUrl, title, subtitle }) => {
   return (
     <section className="main">
       <div className="main__container _container">
         <div className="main__bg-image">
-          <img src="https://thumb.tildacdn.com/tild3537-3237-4537-b733-363864376364/-/format/webp/0001.jpg" alt="" />
+          <img src={bgImageUrl} alt="" />
         </div>
         <div className="main__content">
           <ul className="main-content__list">
-            <li className="main-content__title">
-              Производство и продажа изделий на основе <span>гибкого камня</span>
-            </li>
-            <li className="main-content__subtitle">
-              Красивый, качественный и современный материал по доступной цене !
-            </li>
+            <li className="main-content__title h1Title">{parse(title)}</li>
+            <li className="main-content__subtitle">{parse(subtitle)}</li>
             <ul className="main-content__characters">
               <li className="main-content-characters__item">
                 Влагоустойчивый, экологически чистый материал

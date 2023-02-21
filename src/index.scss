@@ -168,7 +168,7 @@ body {
           bottom: 0;
         }
       }
-      @media (max-width: 747px) {
+      @media (max-width: 825px) {
         display: block;
 
         &.active {
@@ -192,9 +192,11 @@ body {
       .header-nav__list {
         display: flex;
         align-items: center;
+        flex-wrap: wrap;
 
         .header-nav__item {
           font-weight: 500;
+          padding: 5px;
           &:not(:last-child) {
             padding-right: 20px;
           }
@@ -229,7 +231,7 @@ body {
           }
         }
       }
-      @media (max-width: 747px) {
+      @media (max-width: 825px) {
         position: absolute;
         padding-top: 60px;
         top: 0;
@@ -263,6 +265,18 @@ body {
   }
 }
 
+.h1Title {
+  @include adaptiv-property('font-size', 45, 25, 'px');
+  max-width: 776px;
+  line-height: 1.3;
+  font-weight: 600;
+  color: #fff;
+
+  span {
+    color: $orange;
+  }
+}
+
 .main {
   /* background-image: url('https://thumb.tildacdn.com/tild3537-3237-4537-b733-363864376364/-/format/webp/0001.jpg'); */
   background-repeat: no-repeat;
@@ -290,16 +304,7 @@ body {
       .main-content__list {
       }
       .main-content__title {
-        @include adaptiv-property('font-size', 45, 25, 'px');
-        max-width: 776px;
-        line-height: 1.3;
-        font-weight: 600;
         margin-bottom: 30px;
-        color: #fff;
-
-        span {
-          color: $orange;
-        }
       }
       .main-content__subtitle {
         margin-bottom: 20px;
@@ -398,6 +403,7 @@ body {
           img {
             width: 400px;
             height: 370px;
+            object-fit: cover;
           }
           @media (max-width: 1200px) {
             &:nth-child(3) {
@@ -410,6 +416,8 @@ body {
           padding-top: 0;
           /* max-width: 370px; */
           width: 100%;
+          max-height: 370px;
+          overflow: auto;
           .using-list-content__title {
             color: #fff;
             text-align: center;
@@ -498,6 +506,7 @@ body {
           overflow: auto;
           display: flex;
           flex-direction: column;
+          align-items: start;
         }
         .techDesc-item__title {
           @include adaptiv-property('font-size', 24, 20, 'px');
@@ -530,12 +539,14 @@ body {
   background-color: #10161d;
   .adventages__container {
     @include adaptiv-property('padding-bottom', 100, 40, 'px');
+    @include adaptiv-property('padding-top', 50, 20, 'px');
     .adventages__title {
       font-weight: 500;
       color: #fff;
       margin: 0 auto;
       @include adaptiv-property('margin-bottom', 100, 40, 'px');
       @include adaptiv-property('font-size', 30, 20, 'px');
+      text-align: center;
     }
     .adventages__content {
       display: flex;
@@ -840,6 +851,127 @@ body {
         }
         @media (max-width: 575px) {
           grid-template-columns: 1fr;
+        }
+      }
+    }
+  }
+}
+
+.collection {
+  background-color: #10161d;
+
+  .collection__container {
+    .collection__title {
+      @include adaptiv-property('font-size', 42, 20, 'px');
+      @include adaptiv-property('margin-bottom', 50, 20, 'px');
+      color: $orange;
+      font-weight: 500;
+      text-align: center;
+    }
+    .collection__subtitle {
+      text-align: center;
+      max-width: 570px;
+      line-height: 1.3;
+      width: 100%;
+      margin: 0 auto;
+      color: #fff;
+      @include adaptiv-property('margin-bottom', 100, 30, 'px');
+      @include adaptiv-property('font-size', 24, 18, 'px');
+    }
+    .collection__list {
+      .collection__item {
+        display: flex;
+        justify-content: center;
+        max-width: 800px;
+        margin: 0 auto;
+        &:not(:last-child) {
+          @include adaptiv-property('margin-bottom', 100, 30, 'px');
+        }
+
+        .collection-item__content {
+          order: 2;
+          max-width: 380px;
+          width: 100%;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          .collection-item__title {
+            @include adaptiv-property('font-size', 26, 18, 'px');
+            @include adaptiv-property('margin-bottom', 50, 10, 'px');
+            color: #fff;
+            font-weight: 600;
+          }
+          .collection-item__subtitle {
+            @include adaptiv-property('font-size', 18, 14, 'px');
+            color: #fff;
+            max-height: 150px;
+            height: 100%;
+            overflow: auto;
+          }
+        }
+        .collection-item__img {
+          order: 1;
+
+          max-width: 460px;
+          max-height: 340px;
+          width: 100%;
+          height: 100%;
+
+          img {
+            width: 100%;
+            height: 100%;
+          }
+        }
+        &:nth-child(odd) {
+          .collection-item__content {
+            order: 1;
+            margin-right: 30px;
+          }
+          .collection-item__img {
+            order: 2;
+          }
+        }
+        &:nth-child(even) {
+          .collection-item__content {
+            order: 2;
+          }
+          .collection-item__img {
+            margin-right: 30px;
+            order: 1;
+          }
+          @media (max-width: 840px) {
+            .collection-item__content {
+              order: 1;
+              margin-right: 30px;
+            }
+            .collection-item__img {
+              order: 2;
+            }
+          }
+        }
+        @media (max-width: 840px) {
+          flex-direction: column;
+
+          .collection-item__content {
+            text-align: center;
+            max-width: none;
+            margin-bottom: 10px;
+            align-items: center;
+            .collection-item__subtitle {
+              max-height: none;
+              overflow: visible;
+              text-align: center;
+              @include adaptiv-property('font-size', 40, 14, 'px');
+            }
+            .collection-item__title {
+              @include adaptiv-property('font-size', 70, 18, 'px');
+              text-align: center;
+            }
+          }
+          .collection-item__img{
+            max-width: none;
+            max-height: none;
+          }
         }
       }
     }

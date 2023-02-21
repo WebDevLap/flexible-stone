@@ -37,7 +37,7 @@ export const Adventages: React.FC = () => {
   return (
     <section className="adventages">
       <div className="adventages__container _container">
-        <div className="adventages__title"></div>
+        <h2 className="adventages__title">Преимущества фасадных термопанелей</h2>
         <div className="adventages__content">
           <div className="adventages-content__img">
             <img
