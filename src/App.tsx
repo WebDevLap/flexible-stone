@@ -5,6 +5,7 @@ import { Header } from './components/Header';
 import { NotFoundPage } from './pages/NotFoundPage';
 import { ThermalPanels } from './pages/ThermalPanels';
 import { useLocation } from 'react-router-dom';
+import { Consultation } from './pages/HomePage/components/Consultation';
 
 export const App: React.FC = () => {
   const location = useLocation();
@@ -17,6 +18,7 @@ export const App: React.FC = () => {
   return (
     <div className="wrapper">
       <Header />
+      <Consultation/>
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/facadeTermelPanels/" element={<ThermalPanels />} />
