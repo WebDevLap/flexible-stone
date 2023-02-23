@@ -7,11 +7,12 @@ type NavItemType = {
 }
 const NavItems: NavItemType[] = [
   { item: 'Главная', link: '/' },
-  { item: 'Гибкий кирпич', link: '/flexibleStone/' },
-  { item: 'Гибкая плитка', link: '/flexibleTile/' },
-  { item: 'Термопанели', link: '/facadeTermelPanels/' },
-  { item: 'Наши работы', link: '/ourProjects/' },
-  { item: 'О нас', link: '/AboutUs/' },
+  { item: 'Гибкий кирпич', link: '/flexibleStone' },
+  { item: 'Гибкая плитка', link: '/flexibleTile' },
+  { item: 'Термопанели', link: '/facadeTermelPanels' },
+  { item: 'Наши работы', link: '/ourProjects' },
+  { item: 'Цены', link: '/Prices' },
+  { item: 'О нас', link: '/AboutUs' },
 ];
 
 

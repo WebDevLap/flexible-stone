@@ -1,21 +1,22 @@
 import React from 'react';
 import parse from 'html-react-parser';
 
-type CollectionItem = {
+export type CollectionItemType = {
   title: string;
   subtitle: string;
   imageUrl: string;
 };
 
 type CollectionType = {
-  collectionItems: CollectionItem[];
+  collectionItems: CollectionItemType[];
+  title: JSX.Element;
 };
 
-export const Collection: React.FC<CollectionType> = ({ collectionItems }) => {
+export const Collection: React.FC<CollectionType> = ({ collectionItems, title }) => {
   return (
     <section className="collection">
       <div className="collection__container _container">
-        <h2 className="collection__title">Коллекция гибкого кирпича на панелях</h2>
+        <h2 className="collection__title">{title}</h2>
         <p className="collection__subtitle">
           Представленные образцы кирпича на панелях созданы дизайнерским коллективом на основе
           современных цветовых тенденций

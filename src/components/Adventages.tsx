@@ -33,15 +33,15 @@ const AdventageParams: AdventageParamType[] = [
   },
 ];
 
-export const Adventages: React.FC = () => {
+export const Adventages: React.FC<{title: JSX.Element, imageUrl: string}> = ({title, imageUrl}) => {
   return (
     <section className="adventages">
       <div className="adventages__container _container">
-        <h2 className="adventages__title">Преимущества фасадных термопанелей</h2>
+        <h2 className="adventages__title">{title}</h2>
         <div className="adventages__content">
           <div className="adventages-content__img">
             <img
-              src="https://thumb.tildacdn.com/tild6333-3764-4339-a134-643162633032/-/format/webp/noroot.png"
+              src={imageUrl}
               alt=""
             />
           </div>

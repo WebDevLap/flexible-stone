@@ -5,7 +5,9 @@ import { Header } from './components/Header';
 import { NotFoundPage } from './pages/NotFoundPage';
 import { ThermalPanels } from './pages/ThermalPanels';
 import { useLocation } from 'react-router-dom';
-import { Consultation } from './pages/HomePage/components/Consultation';
+import { Consultation } from './components/Consultation';
+import { FlexibleBrick } from './pages/FlexibleBrick';
+import { FlexibleTile } from './pages/FlexibleTile';
 
 export const App: React.FC = () => {
   const location = useLocation();
@@ -22,6 +24,8 @@ export const App: React.FC = () => {
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/facadeTermelPanels/" element={<ThermalPanels />} />
+        <Route path="/flexibleStone/" element={<FlexibleBrick />} />
+        <Route path="/flexibleTile/" element={<FlexibleTile />} />
         <Route path="*" element={<NotFoundPage />} />
       </Routes>
     </div>
