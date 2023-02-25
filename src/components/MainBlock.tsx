@@ -36,7 +36,7 @@ export const MainBlock: React.FC<MainBlockType> = ({ bgImageUrl, title, subtitle
                 </li>
               </ul>
               <div className="main-content__btns">
-                <GetConsultBtn>Получить консультация</GetConsultBtn>
+                <GetConsultBtn>Получить консультацию</GetConsultBtn>
                 <div className="main-content-btns__soc-network">
                   <a href='https://t.me/+79619751680'>
                     <img src="https://img.icons8.com/fluency/2x/telegram-app.png" alt="" />
@@ -46,7 +46,6 @@ export const MainBlock: React.FC<MainBlockType> = ({ bgImageUrl, title, subtitle
                   </a>
                 </div>
               </div>
-              
             </ul>
           </div>
         </div>

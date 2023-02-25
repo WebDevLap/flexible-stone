@@ -73,7 +73,7 @@ export const ThermalPanels: React.FC = () => {
       />
       <Collection
         collectionItems={collectionItems}
-        title={<>Коллекция гибкого кирпича на панелях</>}
+        title={<>Коллекция гибкого камня на панелях</>}
       />
     </div>
   );
