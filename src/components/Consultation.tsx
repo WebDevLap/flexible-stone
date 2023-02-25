@@ -108,7 +108,6 @@ export const Consultation = () => {
         .sendForm('service_yoh8d1r', 'template_2yzkp8s', e.target, 'jgqOCV-usNckNIGw2')
         .then((res) => alert(`статус ${res.status}, отправка успешна!`))
         .catch((err) => alert(`статус ${err.status}, отправка не удалась!`));
-      alert('Данные отправлены');
       setNameInput('');
       setPhoneInput('');
     }

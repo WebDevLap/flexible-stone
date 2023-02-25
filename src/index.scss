@@ -64,6 +64,7 @@ input::-ms-clear {
 }
 button {
   cursor: pointer;
+  background-color: transparent;
 }
 button::-moz-focus-inner {
   padding: 0;
@@ -117,7 +118,7 @@ body {
 
 .wrapper {
   overflow: hidden;
-  padding-top: 50px;
+  padding-top: 40px;
 }
 
 .header {
@@ -130,7 +131,9 @@ body {
   .header__container {
     display: flex;
     justify-content: space-between;
-    min-height: 50px;
+    // min-height: 30px;
+    // height: 60px;
+    padding: 5px;
     align-items: center;
     position: relative;
 
@@ -168,7 +171,7 @@ body {
           bottom: 0;
         }
       }
-      @media (max-width: 825px) {
+      @media (max-width: 840px) {
         display: block;
 
         &.active {
@@ -231,7 +234,7 @@ body {
           }
         }
       }
-      @media (max-width: 825px) {
+      @media (max-width: 840px) {
         position: absolute;
         padding-top: 60px;
         top: 0;
@@ -359,6 +362,34 @@ body {
             &::before {
               content: '';
               background-image: url('https://static.tildacdn.com/tild3065-3931-4534-a438-613530643732/002.svg');
+            }
+          }
+        }
+      }
+      .main-content__btns {
+        display: flex;
+        align-items: flex-start;
+
+        & > *:not(:last-child) {
+          margin-right: 25px;
+        }
+        .main-content-btns__soc-network {
+          & > *:not(:last-child) {
+            margin-right: 10px;
+          }
+          a {
+            
+            img {
+              width: 50px;
+              height: 50px;
+              // border-radius: 50%;
+              transition: 0.2s;
+            }
+
+            &:hover {
+              img {
+                box-shadow: 0px 0px 10px 3px #000000;
+              }
             }
           }
         }
