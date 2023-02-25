@@ -369,9 +369,11 @@ body {
       .main-content__btns {
         display: flex;
         align-items: flex-start;
+        flex-wrap: wrap;
 
         & > *:not(:last-child) {
           margin-right: 25px;
+          margin-bottom: 15px;
         }
         .main-content-btns__soc-network {
           & > *:not(:last-child) {
