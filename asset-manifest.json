@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/flexible-stone/static/css/main.52867cc4.css",
-    "main.js": "/flexible-stone/static/js/main.b13b28c8.js",
+    "main.css": "/flexible-stone/static/css/main.24778682.css",
+    "main.js": "/flexible-stone/static/js/main.d325e02f.js",
     "static/media/bgImage2.jpg": "/flexible-stone/static/media/bgImage2.b23caff8479850007162.jpg",
     "static/media/bgImage1.jpg": "/flexible-stone/static/media/bgImage1.17d493789cff9d38dcc5.jpg",
     "index.html": "/flexible-stone/index.html",
-    "main.52867cc4.css.map": "/flexible-stone/static/css/main.52867cc4.css.map",
-    "main.b13b28c8.js.map": "/flexible-stone/static/js/main.b13b28c8.js.map"
+    "main.24778682.css.map": "/flexible-stone/static/css/main.24778682.css.map",
+    "main.d325e02f.js.map": "/flexible-stone/static/js/main.d325e02f.js.map"
   },
   "entrypoints": [
-    "static/css/main.52867cc4.css",
-    "static/js/main.b13b28c8.js"
+    "static/css/main.24778682.css",
+    "static/js/main.d325e02f.js"
   ]
 }
