@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/flexible-stone/static/css/main.ee04501e.css",
-    "main.js": "/flexible-stone/static/js/main.dd1a2c9d.js",
+    "main.css": "/flexible-stone/static/css/main.62591223.css",
+    "main.js": "/flexible-stone/static/js/main.4d74f18c.js",
     "static/media/img2.jpg": "/flexible-stone/static/media/img2.a389a79451ae77813af5.jpg",
     "static/media/img3.jpg": "/flexible-stone/static/media/img3.6b388d7019879e5e1266.jpg",
     "static/media/img1.jpg": "/flexible-stone/static/media/img1.c0e5028ad79d2fdd5af1.jpg",
@@ -20,11 +20,11 @@
     "static/media/img14.jpg": "/flexible-stone/static/media/img14.1440590dca5ebafd144e.jpg",
     "static/media/img15.jpg": "/flexible-stone/static/media/img15.0ef3c32714246ed82301.jpg",
     "index.html": "/flexible-stone/index.html",
-    "main.ee04501e.css.map": "/flexible-stone/static/css/main.ee04501e.css.map",
-    "main.dd1a2c9d.js.map": "/flexible-stone/static/js/main.dd1a2c9d.js.map"
+    "main.62591223.css.map": "/flexible-stone/static/css/main.62591223.css.map",
+    "main.4d74f18c.js.map": "/flexible-stone/static/js/main.4d74f18c.js.map"
   },
   "entrypoints": [
-    "static/css/main.ee04501e.css",
-    "static/js/main.dd1a2c9d.js"
+    "static/css/main.62591223.css",
+    "static/js/main.4d74f18c.js"
   ]
 }
