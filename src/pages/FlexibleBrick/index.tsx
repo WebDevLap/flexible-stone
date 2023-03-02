@@ -1,59 +1,14 @@
 import React from 'react';
-import { Collection } from '../../components/Collection';
+import { Collection } from '../../components/Collection/Collection';
 import { MainBlock } from '../../components/MainBlock';
 import { UsingTwoColumn } from '../../components/UsingTwoColumn';
 import { UsuallyFlex } from '../../components/UsuallyFlex';
-
-import { CollectionItemType } from '../../components/Collection';
-
-const collectionItems: CollectionItemType[] = [
-  {
-    title: 'Коллекция Турино',
-    subtitle: `1550 р/кв м на сетке<br/>>
-    3050 р/кв м на пенополистироле 50 мм<br/>
-    размер сетки 100 см на 120 см<br/>
-    размер панели 105 см на 55 см<br/>
-    Может быть выполнена со любой затиркой<br/>`,
-    imageUrl: 'https://static.tildacdn.com/tild6131-6331-4930-b465-626133326361/IMG_1188.jpg',
-  },
-  {
-    title: 'Коллекция Лофт',
-    subtitle: `
-    1550 р/кв м на сетке<br/>>
-    3050 р/кв м на пенополистироле 50 мм<br/>
-    размер сетки 100 см на 120 см<br/>
-    размер панели 105 см на 55 см<br/>
-    Может быть выполнена со любой затиркой<br/>`,
-    imageUrl: 'https://static.tildacdn.com/tild3237-3137-4362-a162-373338616533/IMG_0929.jpg',
-  },
-  {
-    title: 'Коллекция Классика',
-    subtitle: `
-    1550 р/кв м на сетке<br/>>
-    3050 р/кв м на пенополистироле 50 мм<br/>
-    размер сетки 100 см на 120 см<br/>
-    размер панели 105 см на 55 см<br/>
-    Может быть выполнена со любой затиркой<br/>`,
-    imageUrl: 'https://static.tildacdn.com/tild3766-3666-4737-a265-653134363132/IMG_1127.jpg',
-  },
-  {
-    title: 'Коллекция Нео',
-    subtitle: `
-    1550 р/кв м на сетке<br/>>
-    3050 р/кв м на пенополистироле 50 мм<br/>
-    размер сетки 100 см на 120 см<br/>
-    размер панели 105 см на 55 см<br/>
-    Может быть выполнена со любой затиркой<br/>`,
-    imageUrl:
-      'https://static.tildacdn.com/tild3335-3935-4533-b965-666137383534/PHOTO-2022-05-15-21-.jpg',
-  },
-];
 
 export const FlexibleBrick = () => {
   return (
     <div className="flexibleBrick">
       <MainBlock
-        bgImageUrl="https://thumb.tildacdn.com/tild3138-6238-4235-a135-383563346561/-/format/webp/10.jpg"
+        bgImageUrl="https://wp-s.ru/wallpapers/2/2/502916891609756/krasivyj-zagorodnyj-dom-okolo-zelenoj-luzhajki.jpg"
         title="<span>Гибкий кирпич</span> - строительный облицовочный материал, на основе мрамора и полимеров"
         subtitle=""
       />
@@ -78,7 +33,7 @@ export const FlexibleBrick = () => {
             </p>
           </>
         }
-        imageUrl="https://thumb.tildacdn.com/tild3633-6233-4161-b830-643532663437/-/cover/532x418/center/center/-/format/webp/kirp_avstria-350x470.jpg"
+        imageUrl="https://avatars.mds.yandex.net/get-direct/2799532/Aw-onwPljsRrtph7tISwJw/y450"
       />
       <UsuallyFlex
         title={<>Технологии изготовления гибкого кирпича</>}
@@ -96,8 +51,6 @@ export const FlexibleBrick = () => {
         }
         imageUrl="https://thumb.tildacdn.com/tild3234-3838-4137-a466-333661346163/-/format/webp/montaz_7.jpg"
       />
-      
-      <Collection title={<>Коллекция гибкого кирпича</>} collectionItems={collectionItems} />
     </div>
   );
 };

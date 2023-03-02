@@ -1,45 +1,6 @@
 import { Adventages } from '../../components/Adventages';
-import { Collection } from '../../components/Collection';
 import { MainBlock } from '../../components/MainBlock';
-import { Using } from '../../components/Using';
 import { UsingTwoColumn } from '../../components/UsingTwoColumn';
-
-type CollectionItem = {
-  title: string;
-  subtitle: string;
-  imageUrl: string;
-};
-
-const collectionItems: CollectionItem[] = [
-  {
-    title: 'Коллекция тихий шторм',
-    subtitle: `3050 р/кв м на пенополистироле 50 мм<br/>
-    (возможно выполнение на 30 мм и 100 мм)<br/>
-    размер сетки 100 см на 120 см<br/>
-    размер панели 105 см на 55 см<br/>
-    Может быть выполнена со любой затиркой<br/>`,
-    imageUrl: 'https://static.tildacdn.com/tild3638-3662-4937-b265-663030376163/IMG_1264.jpg',
-  },
-  {
-    title: 'Коллекция Елена',
-    subtitle: `3050 р/кв м на пенополистироле 50 мм<br/>
-    (возможно выполнение на 30 мм и 100 мм)<br/>
-    размер сетки 100 см на 120 см<br/>
-    размер панели 105 см на 55 см<br/>
-    Может быть выполнена со любой затиркой<br/>`,
-    imageUrl: 'https://static.tildacdn.com/tild3633-3563-4066-b339-383530363632/IMG_1344.jpg',
-  },
-  {
-    title: 'Коллекция Газгольдер',
-    subtitle: `3050 р/кв м на пенополистироле 50 мм 
-    (возможно выполнение на 30 мм и 100 мм)
-    размер сетки 100 см на 120 см
-    размер панели 105 см на 55 см
-    Может быть выполнена со любой затиркой`,
-    imageUrl:
-      'https://thumb.tildacdn.com/tild3436-3561-4531-b765-613262396265/-/cover/460x340/center/center/-/format/webp/PHOTO-2022-05-15-21-.jpg',
-  },
-];
 
 export const ThermalPanels: React.FC = () => {
   return (
@@ -70,10 +31,6 @@ export const ThermalPanels: React.FC = () => {
       <Adventages
         title={<>Преимущества фасадных термопанелей</>}
         imageUrl="https://thumb.tildacdn.com/tild6333-3764-4339-a134-643162633032/-/resize/560x/-/format/webp/noroot.png"
-      />
-      <Collection
-        collectionItems={collectionItems}
-        title={<>Коллекция гибкого камня на панелях</>}
       />
     </div>
   );

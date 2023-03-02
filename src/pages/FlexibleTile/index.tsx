@@ -1,10 +1,53 @@
 import React from 'react';
 import { Adventages } from '../../components/Adventages';
-import { Collection } from '../../components/Collection';
+import { Collection } from '../../components/Collection/Collection';
 import { MainBlock } from '../../components/MainBlock';
 import { UsingTwoColumn } from '../../components/UsingTwoColumn';
 import { UsuallyFlex } from '../../components/UsuallyFlex';
 
+import img1 from './assets/images/img1.jpg';
+import img2 from './assets/images/img2.jpg';
+import img3 from './assets/images/img3.jpg';
+import img4 from './assets/images/img4.jpg';
+import img5 from './assets/images/img5.jpg';
+import img6 from './assets/images/img6.jpg';
+import img7 from './assets/images/img7.jpg';
+import img8 from './assets/images/img8.jpg';
+import img9 from './assets/images/img9.jpg';
+import img10 from './assets/images/img10.jpg';
+import img11 from './assets/images/img11.jpg';
+import img12 from './assets/images/img12.jpg';
+import img13 from './assets/images/img13.jpg';
+import img14 from './assets/images/img14.jpg';
+import img15 from './assets/images/img15.jpg';
+
+const collectionItems = [
+  {
+    imageUrl: img1,
+    imageUrl2: img2,
+    imageUrl3: img3,
+  },
+  {
+    imageUrl: img4,
+    imageUrl2: img5,
+    imageUrl3: img6,
+  },
+  {
+    imageUrl: img7,
+    imageUrl2: img8,
+    imageUrl3: img9,
+  },
+  {
+    imageUrl: img10,
+    imageUrl2: img11,
+    imageUrl3: img12,
+  },
+  {
+    imageUrl: img13,
+    imageUrl2: img14,
+    imageUrl3: img15,
+  },
+];
 
 export const FlexibleTile = () => {
   return (
@@ -13,7 +56,7 @@ export const FlexibleTile = () => {
         title="<span>Гибкая плитка под камень</span>
 - уникальная технология на основе мрамора и спокойных полимеров"
         subtitle=""
-        bgImageUrl="https://thumb.tildacdn.com/tild6366-3538-4634-a432-646635653139/-/format/webp/krasivyj-gibkij-kame.jpg"
+        bgImageUrl="https://krov-torg.ru/wp-content/uploads/2019/08/18-12.jpg"
       />
       <UsingTwoColumn
         title={<>Технология и применение гибкой плитки</>}
@@ -30,37 +73,21 @@ export const FlexibleTile = () => {
             натуральным срезом камня
           </>
         }
-        imageUrl="https://static.tildacdn.com/tild3037-6439-4133-a435-306634613038/IMG_1556.jpg"
-      />
-      <UsingTwoColumn
-        title={<>Гибкие панели под кирпич-отличное решение</>}
-        subtitle={
-          <>
-            Современное строительство и ремонт реально ушли далеко в сторону применения новых
-            материалов и способов декорирования пространств. Другое дело, что ценник этих новинок
-            часто бывает недостаточно обоснован, мягко скажем. Изделия на основе мраморно полимерной
-            смеси, благодаря натуральным материалам и технологии самой природы, воссозданной в
-            лаборатории- приятно удивляют низкими затратами. Что реально отражается и на их цене.
-          </>
-        }
-        imageUrl="https://static.tildacdn.com/tild3032-6537-4161-a135-613465373330/IMG_1510.jpg"
-      />
-      <UsuallyFlex
-        title={<></>}
-        subtitle={
-          <>
-            Коллекции кирпича на гибкой основе создаются на основе коллекций гибкого клинкера. Сама
-            подложка выполнена из той же мраморно-полимерной смеси. Идеально подходит и для кухонь,
-            присутственных мест квартиры, офиса, балконов и оранжерей, кабинетов и парадных. Все для
-            фантазии дизайнера. Клеится на любую поверхность. Быстро и без строительной пыли и
-            грязи.
-          </>
-        }
-        imageUrl="https://thumb.tildacdn.com/tild3632-3634-4030-b466-336264343232/-/resize/465x/-/format/webp/IMG_1514.jpg"
+        imageUrl="https://avatars.mds.yandex.net/i?id=95ea454b50383d49a7aa07670d9e05aa905ae7bc-8988469-images-thumbs&n=13"
       />
       <Adventages
         title={<>Преимущества Гибкой Плитки</>}
-        imageUrl="https://thumb.tildacdn.com/tild3264-3966-4338-b731-386139613132/-/resize/560x/-/format/webp/981_original.jpg"
+        imageUrl="https://pro-dachnikov.com/uploads/posts/2021-10/1633514982_12-p-uyutnii-dom-snaruzhi-foto-14.jpg"
+      />
+      <Collection
+        collectionItems={collectionItems}
+        title={<>Коллекция гибкой плитки</>}
+        subtitle={
+          <>
+            Представленные образцы гибкой плитки созданы дизайнерским коллективом на основе
+            современных цветовых тенденций
+          </>
+        }
       />
     </div>
   );
