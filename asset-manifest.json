@@ -1,28 +1,30 @@
 {
   "files": {
-    "main.css": "/flexible-stone/static/css/main.c4d66fea.css",
-    "main.js": "/flexible-stone/static/js/main.294eb15d.js",
-    "static/media/img2.jpg": "/flexible-stone/static/media/img2.27012a0caf20f15eac09.jpg",
-    "static/media/img6.jpg": "/flexible-stone/static/media/img6.ff40e3f0634997c7ac8b.jpg",
-    "static/media/img3.jpg": "/flexible-stone/static/media/img3.55192870c69227d2bd29.jpg",
-    "static/media/img1.jpg": "/flexible-stone/static/media/img1.510242b1c91592bab0c1.jpg",
-    "static/media/img5.jpg": "/flexible-stone/static/media/img5.116853edfb99b60a521d.jpg",
-    "static/media/img11.jpg": "/flexible-stone/static/media/img11.48644eed776fd8a240f4.jpg",
-    "static/media/img9.jpg": "/flexible-stone/static/media/img9.fa17b0d5090a2040e23e.jpg",
-    "static/media/img7.jpg": "/flexible-stone/static/media/img7.cca4da58ef8066d274b7.jpg",
-    "static/media/img8.jpg": "/flexible-stone/static/media/img8.f9c1a18c62dd62492ed5.jpg",
-    "static/media/img4.jpg": "/flexible-stone/static/media/img4.c5f87364ace658571fc6.jpg",
-    "static/media/img12.jpg": "/flexible-stone/static/media/img12.8466179bd30f31434694.jpg",
-    "static/media/img13.jpg": "/flexible-stone/static/media/img13.cada2fc28e2eab803c8f.jpg",
-    "static/media/img10.jpg": "/flexible-stone/static/media/img10.04409b3b56f54600b6d1.jpg",
+    "main.css": "/flexible-stone/static/css/main.ee04501e.css",
+    "main.js": "/flexible-stone/static/js/main.dd1a2c9d.js",
+    "static/media/img2.jpg": "/flexible-stone/static/media/img2.a389a79451ae77813af5.jpg",
+    "static/media/img3.jpg": "/flexible-stone/static/media/img3.6b388d7019879e5e1266.jpg",
+    "static/media/img1.jpg": "/flexible-stone/static/media/img1.c0e5028ad79d2fdd5af1.jpg",
+    "static/media/img9.jpg": "/flexible-stone/static/media/img9.f22a8b9f6a18474fb1c1.jpg",
+    "static/media/img7.jpg": "/flexible-stone/static/media/img7.d6683d03e10a0ea7dd6c.jpg",
+    "static/media/img6.jpg": "/flexible-stone/static/media/img6.2e116496aa1ce49de63b.jpg",
+    "static/media/img5.jpg": "/flexible-stone/static/media/img5.3401d3d9b5bd73dfd60e.jpg",
+    "static/media/img8.jpg": "/flexible-stone/static/media/img8.8d6159da6ef8a6a008b2.jpg",
+    "static/media/img4.jpg": "/flexible-stone/static/media/img4.a52c58c73b964471f586.jpg",
+    "static/media/img11.jpg": "/flexible-stone/static/media/img11.236115a523a2fbc0ae32.jpg",
+    "static/media/img12.jpg": "/flexible-stone/static/media/img12.ca0f89b82d32e8c08661.jpg",
+    "static/media/img13.jpg": "/flexible-stone/static/media/img13.3194640097bcff949819.jpg",
+    "static/media/img10.jpg": "/flexible-stone/static/media/img10.588217472341989b1b6a.jpg",
     "static/media/bgImage2.jpg": "/flexible-stone/static/media/bgImage2.b23caff8479850007162.jpg",
     "static/media/bgImage1.jpg": "/flexible-stone/static/media/bgImage1.17d493789cff9d38dcc5.jpg",
+    "static/media/img14.jpg": "/flexible-stone/static/media/img14.1440590dca5ebafd144e.jpg",
+    "static/media/img15.jpg": "/flexible-stone/static/media/img15.0ef3c32714246ed82301.jpg",
     "index.html": "/flexible-stone/index.html",
-    "main.c4d66fea.css.map": "/flexible-stone/static/css/main.c4d66fea.css.map",
-    "main.294eb15d.js.map": "/flexible-stone/static/js/main.294eb15d.js.map"
+    "main.ee04501e.css.map": "/flexible-stone/static/css/main.ee04501e.css.map",
+    "main.dd1a2c9d.js.map": "/flexible-stone/static/js/main.dd1a2c9d.js.map"
   },
   "entrypoints": [
-    "static/css/main.c4d66fea.css",
-    "static/js/main.294eb15d.js"
+    "static/css/main.ee04501e.css",
+    "static/js/main.dd1a2c9d.js"
   ]
 }
