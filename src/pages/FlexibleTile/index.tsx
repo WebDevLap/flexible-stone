@@ -23,6 +23,27 @@ import img13 from './assets/images/img13.jpg';
 import img14 from './assets/images/img14.jpg';
 import img15 from './assets/images/img15.jpg';
 
+import img16 from './assets/images/2Kind/img16.jpg';
+import img17 from './assets/images/2Kind/img17.jpg';
+import img18 from './assets/images/2Kind/img18.jpg';
+import img19 from './assets/images/2Kind/img19.jpg';
+import img20 from './assets/images/2Kind/img20.jpg';
+import img21 from './assets/images/2Kind/img21.jpg';
+import img22 from './assets/images/2Kind/img22.jpg';
+import img23 from './assets/images/2Kind/img23.jpg';
+import img24 from './assets/images/2Kind/img24.jpg';
+import img25 from './assets/images/2Kind/img25.jpg';
+
+import img26 from './assets/images/2Kind/img26.jpg';
+import img27 from './assets/images/2Kind/img29.jpg';
+import img28 from './assets/images/2Kind/img30.jpg';
+import img29 from './assets/images/2Kind/img31.jpg';
+import img30 from './assets/images/2Kind/img32.jpg';
+import img31 from './assets/images/2Kind/img33.jpg';
+import img32 from './assets/images/2Kind/img34.jpg';
+import img33 from './assets/images/2Kind/img35.jpg';
+
+
 const collectionItems = [
   {
     imageUrl: img1,
@@ -48,6 +69,36 @@ const collectionItems = [
     imageUrl: img13,
     imageUrl2: img14,
     imageUrl3: img15,
+  },
+  {
+    imageUrl: img16,
+    imageUrl2: img17,
+    imageUrl3: img18,
+  },
+  {
+    imageUrl: img19,
+    imageUrl2: img20,
+    imageUrl3: img21,
+  },
+  {
+    imageUrl: img22,
+    imageUrl2: img23,
+    imageUrl3: img24,
+  },
+  {
+    imageUrl: img25,
+    imageUrl2: img26,
+    imageUrl3: img27,
+  },
+  {
+    imageUrl: img28,
+    imageUrl2: img29,
+    imageUrl3: img30,
+  },
+  {
+    imageUrl: img31,
+    imageUrl2: img32,
+    imageUrl3: img33,
   },
 ];
 

@@ -1363,7 +1363,6 @@ body {
     max-width: 100vw;
     max-height: 100vh;
 
-
     .fullCollection__img {
       position: relative;
       border-radius: 10px;
@@ -1408,6 +1407,18 @@ body {
       img {
         width: 100%;
         height: 100%;
+      }
+    }
+  }
+}
+
+.prices {
+  .prices__container {
+    .prices__list {
+      padding: 20px 0;
+      .prices__item {
+        @include adaptiv-property('font-size', 24, 19, 'px');
+        margin-bottom: 0.8em;
       }
     }
   }

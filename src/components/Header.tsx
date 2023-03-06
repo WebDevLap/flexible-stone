@@ -12,7 +12,7 @@ const NavItems: NavItemType[] = [
   { item: 'Термопанели', link: '/facadeTermelPanels' },
   { item: 'Наши работы', link: '/ourWorks' },
   { item: 'Цены', link: '/Prices' },
-  { item: 'О нас', link: '/AboutUs' },
+  // { item: 'О нас', link: '/AboutUs' }, 
 ];
 
 

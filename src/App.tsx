@@ -1,6 +1,6 @@
 import React from 'react';
 import { HomePage } from './pages/HomePage/index';
-import { Routes, Route, useParams } from 'react-router-dom';
+import { Routes, Route } from 'react-router-dom';
 import { Header } from './components/Header';
 import { NotFoundPage } from './pages/NotFoundPage';
 import { ThermalPanels } from './pages/ThermalPanels';
@@ -10,10 +10,10 @@ import { FlexibleBrick } from './pages/FlexibleBrick';
 import { FlexibleTile } from './pages/FlexibleTile';
 import { OurWorks } from './pages/OurWorks';
 import { FullOurWorksCard } from './pages/FullOurWorkCard';
+import { PricesPage } from './pages/PricesPage';
 
 export const App: React.FC = () => {
   const location = useLocation();
-  const params = useParams()
 
   React.useEffect(() => {
     window.scrollTo(0, 0)
@@ -32,6 +32,7 @@ export const App: React.FC = () => {
         <Route path="/flexibleTile" element={<FlexibleTile />} />
         <Route path="/fullOurWorksCard/:id" element={<FullOurWorksCard />} />
         <Route path='/ourWorks' element={<OurWorks/>}/>
+        <Route path='/Prices' element={<PricesPage/>}/>
         <Route path="*" element={<NotFoundPage />} />
       </Routes>
     </div>

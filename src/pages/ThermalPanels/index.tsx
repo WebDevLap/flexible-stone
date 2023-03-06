@@ -3,6 +3,10 @@ import { Collection } from '../../components/Collection/Collection';
 import { MainBlock } from '../../components/MainBlock';
 import { UsingTwoColumn } from '../../components/UsingTwoColumn';
 import { CollectionItemType } from '../../components/Collection/Collection';
+import image1 from '../../assets/image/img3.jpg'
+
+
+
 import img1 from './assets/images/img1.jpg'
 import img2 from './assets/images/img2.jpg'
 import img3 from './assets/images/img3.jpg'
@@ -152,7 +156,7 @@ export const ThermalPanels: React.FC = () => {
             перепадами температуры..
           </>
         }
-        imageUrl="https://static.tildacdn.com/tild3035-3537-4134-b537-316465633037/72a7ee43-26c4-4915-a.jpg"
+        imageUrl={image1}
       />
       <Adventages
         title={<>Преимущества фасадных термопанелей</>}
