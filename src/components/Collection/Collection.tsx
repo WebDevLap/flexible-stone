@@ -1,6 +1,5 @@
 import {useState} from 'react';
 import { FullCollection } from './components/FullCollection';
-import { useDispatch } from 'react-redux';
 
 export type CollectionItemType = {
   imageUrl: string;
@@ -15,7 +14,6 @@ type CollectionType = {
 };
 
 export const Collection: React.FC<CollectionType> = ({ collectionItems, title, subtitle }) => {
-  const dispatch = useDispatch();
   const [fullCollectionIsActive, setFullCollectionIsActive] = useState<boolean>(false)
   const [fullCollectionActiveImg, setFullCollectionActiveImg] = useState<string>('')
   return (
@@ -53,7 +51,7 @@ export const Collection: React.FC<CollectionType> = ({ collectionItems, title, s
                     className="collection-item__img"
                     onClick={() => {
                       setFullCollectionIsActive(true);
-                      setFullCollectionActiveImg(item.imageUrl2);
+                      setFullCollectionActiveImg(item.imageUrl3);
                     }}>
                     <img src={item.imageUrl3} alt="" />
                   </div>

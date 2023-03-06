@@ -1,5 +1,4 @@
 import React from 'react';
-import { Collection } from '../../components/Collection/Collection';
 import { MainBlock } from '../../components/MainBlock';
 import { UsingTwoColumn } from '../../components/UsingTwoColumn';
 import { UsuallyFlex } from '../../components/UsuallyFlex';

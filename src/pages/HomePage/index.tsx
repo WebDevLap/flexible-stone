@@ -24,12 +24,12 @@ export const HomePage: React.FC = () => {
         <br /> Гибкий камень применяется: на стенах, полах, ступенях, подоконниках,
         столешницах, в ванных комнатах, бассейнах, саунах, витражах, кухонных фартуках, и
         этот список можно продолжать долго.</>}
-        imageUrl="https://pro-dachnikov.com/uploads/posts/2021-10/1633775256_115-pro-dachnikov-com-p-dom-v-angliiskom-stile-odnoetazhnii-foto-124.jpg"
+        imageUrl="https://thumb.tildacdn.com/tild6532-3062-4034-a638-383962376465/-/cover/806x740/center/center/-/format/webp/2022-05-20_19-00-06.png"
       />
       <TechDescription />
       <Adventages
         title={<>Преимущества гибкого камня</>}
-        imageUrl="https://i.pinimg.com/originals/01/dd/c5/01ddc51c433f58de674cb0f1d0f4dd9f.jpg"
+        imageUrl="https://thumb.tildacdn.com/tild3933-3264-4630-a438-306232356535/-/resize/560x/-/format/webp/2.jpg"
       />
       <StagesWork />
       <OurProducts />

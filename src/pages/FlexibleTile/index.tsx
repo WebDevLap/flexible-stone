@@ -3,7 +3,9 @@ import { Adventages } from '../../components/Adventages';
 import { Collection } from '../../components/Collection/Collection';
 import { MainBlock } from '../../components/MainBlock';
 import { UsingTwoColumn } from '../../components/UsingTwoColumn';
-import { UsuallyFlex } from '../../components/UsuallyFlex';
+import image1 from '../../assets/image/img5.jpg';
+import image2 from '../../assets/image/img2.jpg';
+
 
 import img1 from './assets/images/img1.jpg';
 import img2 from './assets/images/img2.jpg';
@@ -73,11 +75,11 @@ export const FlexibleTile = () => {
             натуральным срезом камня
           </>
         }
-        imageUrl="https://avatars.mds.yandex.net/i?id=95ea454b50383d49a7aa07670d9e05aa905ae7bc-8988469-images-thumbs&n=13"
+        imageUrl={image1}
       />
       <Adventages
         title={<>Преимущества Гибкой Плитки</>}
-        imageUrl="https://pro-dachnikov.com/uploads/posts/2021-10/1633514982_12-p-uyutnii-dom-snaruzhi-foto-14.jpg"
+        imageUrl={image2}
       />
       <Collection
         collectionItems={collectionItems}
