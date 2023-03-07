@@ -2,12 +2,13 @@ import React from 'react';
 import { MainBlock } from '../../components/MainBlock';
 import { UsingTwoColumn } from '../../components/UsingTwoColumn';
 import { UsuallyFlex } from '../../components/UsuallyFlex';
+import image8 from '../../assets/image/img8.jpg';
 
 export const FlexibleBrick = () => {
   return (
     <div className="flexibleBrick">
       <MainBlock
-        bgImageUrl="https://wp-s.ru/wallpapers/2/2/502916891609756/krasivyj-zagorodnyj-dom-okolo-zelenoj-luzhajki.jpg"
+        bgImageUrl={image8}
         title="<span>Гибкий кирпич</span> - строительный облицовочный материал, на основе мрамора и полимеров"
         subtitle=""
       />

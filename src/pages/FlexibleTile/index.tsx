@@ -5,7 +5,7 @@ import { MainBlock } from '../../components/MainBlock';
 import { UsingTwoColumn } from '../../components/UsingTwoColumn';
 import image1 from '../../assets/image/img5.jpg';
 import image2 from '../../assets/image/img2.jpg';
-
+import image3 from '../../assets/image/img3.jpg';
 
 import img1 from './assets/images/img1.jpg';
 import img2 from './assets/images/img2.jpg';
@@ -42,7 +42,6 @@ import img30 from './assets/images/2Kind/img32.jpg';
 import img31 from './assets/images/2Kind/img33.jpg';
 import img32 from './assets/images/2Kind/img34.jpg';
 import img33 from './assets/images/2Kind/img35.jpg';
-
 
 const collectionItems = [
   {
@@ -109,7 +108,7 @@ export const FlexibleTile = () => {
         title="<span>Гибкая плитка под камень</span>
 - уникальная технология на основе мрамора и спокойных полимеров"
         subtitle=""
-        bgImageUrl="https://krov-torg.ru/wp-content/uploads/2019/08/18-12.jpg"
+        bgImageUrl={image3}
       />
       <UsingTwoColumn
         title={<>Технология и применение гибкой плитки</>}
@@ -128,10 +127,7 @@ export const FlexibleTile = () => {
         }
         imageUrl={image1}
       />
-      <Adventages
-        title={<>Преимущества Гибкой Плитки</>}
-        imageUrl={image2}
-      />
+      <Adventages title={<>Преимущества Гибкой Плитки</>} imageUrl={image2} />
       <Collection
         collectionItems={collectionItems}
         title={<>Коллекция гибкой плитки</>}
