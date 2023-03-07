@@ -104,7 +104,7 @@ img {
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&display=swap');
 
 $orange: rgb(254, 91, 12);
-$blue: #10161d;
+$blue: #1a1d36;
 
 ._container {
   max-width: 1200px;
@@ -216,7 +216,7 @@ body {
 
               &.active {
                 background-color: $orange;
-                color: #000;
+                
               }
 
               &:hover {
@@ -230,9 +230,12 @@ body {
             color: #fff;
             transition: 0.3s;
 
-            &:hover,
+            &:hover{
+              color: $orange;
+            }
             &.active {
               color: $orange;
+              opacity: 0.8;
             }
           }
         }
@@ -245,9 +248,9 @@ body {
         transform: translate(100%, 0);
         width: 200px;
         height: 100vh;
-        background-color: #86f729;
+        background-color: #87f363 ;
+        // background-color: #ad6ff3;
         z-index: 5;
-        opacity: 0.3;
         transition: 0.6s;
         .header-nav__list {
           flex-direction: column;
@@ -257,11 +260,14 @@ body {
             display: inline;
             padding-right: 0 !important;
             text-align: center;
+
+            .header-nav__link{
+              color: #212121;
+            }
           }
         }
         &.active {
           transform: translate(0, 0);
-          opacity: 0.93;
           .header-nav__list {
             opacity: 1;
           }
