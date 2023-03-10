@@ -216,7 +216,6 @@ body {
 
               &.active {
                 background-color: $orange;
-                
               }
 
               &:hover {
@@ -230,7 +229,7 @@ body {
             color: #fff;
             transition: 0.3s;
 
-            &:hover{
+            &:hover {
               color: $orange;
             }
             &.active {
@@ -248,7 +247,7 @@ body {
         transform: translate(100%, 0);
         width: 200px;
         height: 100vh;
-        background-color: #87f363 ;
+        background-color: #87f363;
         // background-color: #ad6ff3;
         z-index: 5;
         transition: 0.6s;
@@ -261,7 +260,7 @@ body {
             padding-right: 0 !important;
             text-align: center;
 
-            .header-nav__link{
+            .header-nav__link {
               color: #212121;
             }
           }
@@ -1112,6 +1111,12 @@ body {
           }
         }
       }
+      .consultation__police-confident {
+        user-select: none;
+        margin-bottom: 10px;
+        @include adaptiv-property('font-size', 20, 16, 'px');
+        cursor: pointer;
+      }
       .consultation__btn {
         width: 100%;
         background-color: $orange;
@@ -1425,6 +1430,24 @@ body {
       .prices__item {
         @include adaptiv-property('font-size', 24, 19, 'px');
         margin-bottom: 0.8em;
+      }
+    }
+  }
+}
+
+.confidentPolice {
+  .confidentPolice__container {
+    ul {
+      li {
+        margin: 15px 0;
+        list-style: none;
+        font-family: 'Courier New', Courier, monospace;
+        @include adaptiv-property('font-size', 18, 14, 'px');
+
+        &.title {
+          font-weight: 700;
+          @include adaptiv-property('font-size', 22, 20, 'px')
+        }
       }
     }
   }

@@ -4,6 +4,7 @@ import { setConsultationIsActive } from '../store/slices/consultation';
 import { useDispatch } from 'react-redux';
 import emailjs from 'emailjs-com';
 import bgImage2 from '../assets/image/Components/bgImage2.jpg';
+import { NavLink } from 'react-router-dom';
 
 export const Consultation = () => {
   const consultationIsActive = useAppSelector((state) => state.consultation.consultationIsActive);
@@ -183,6 +184,9 @@ export const Consultation = () => {
                 onBlur={() => setPhoneInputAviableIsTrue(false)}
               />
             </div>
+          </div>
+          <div className="consultation__police-confident">
+            Нажимая отправить вы принимаете нашу <NavLink to='/confidentPolice' onClick={() => dispatch(setConsultationIsActive(false))}>политику конфиденциальности</NavLink>
           </div>
           <button className="consultation__btn" type="submit">
             Отправить

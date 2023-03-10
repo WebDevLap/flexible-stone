@@ -11,6 +11,7 @@ import { FlexibleTile } from './pages/FlexibleTile';
 import { OurWorks } from './pages/OurWorks';
 import { FullOurWorksCard } from './pages/FullOurWorkCard';
 import { PricesPage } from './pages/PricesPage';
+import { ConfidentPolice } from './pages/ConfidentPolice';
 
 export const App: React.FC = () => {
   const location = useLocation();
@@ -33,6 +34,7 @@ export const App: React.FC = () => {
         <Route path="/fullOurWorksCard/:id" element={<FullOurWorksCard />} />
         <Route path='/ourWorks' element={<OurWorks/>}/>
         <Route path='/Prices' element={<PricesPage/>}/>
+        <Route path='/confidentPolice' element={<ConfidentPolice/>}/>
         <Route path="*" element={<NotFoundPage />} />
       </Routes>
     </div>
